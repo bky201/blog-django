@@ -16,7 +16,7 @@ import dj_database_url
 if os.path.isfile('env.py'):
     import env #noqa
 
-development = os.environ.get('DEVELOPMENT', False)
+development = os.environ.get('DEVELOPMENT', True)
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -31,7 +31,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = development
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['blog-django-app.herokuapp.com','127.0.0.1', 'localhost']
 
 
 # Application definition
