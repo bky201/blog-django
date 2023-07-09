@@ -5,6 +5,7 @@ cloudinary
 colorama
 coverage
 cryptography
+defer
 distro
 distro-info
 dj-database-url
