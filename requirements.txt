@@ -13,6 +13,7 @@ dj3-cloudinary-storage
 Django
 django-allauth
 django-crispy-forms
+django-cloudinary-storage
 django-summernote
 fasteners
 Flask

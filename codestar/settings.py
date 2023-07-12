@@ -40,6 +40,7 @@ ALLOWED_HOSTS = ['blogpostapp-6723aa5eaffb.herokuapp.com','127.0.0.1', 'localhos
 # Application definition
 
 INSTALLED_APPS = [
+    'cloudinary_storage',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -49,13 +50,14 @@ INSTALLED_APPS = [
     'allauth',
     'allauth.account',
     'allauth.socialaccount',
-    'cloudinary_storage',
     'django.contrib.staticfiles',
     'cloudinary',
     'django_summernote',
     'crispy_forms',
     'blog',
 ]
+
+
 
 SITE_ID = 1
 
