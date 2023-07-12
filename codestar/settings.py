@@ -35,7 +35,7 @@ DEBUG = False
 
 X_FRAME_OPTIONS = 'SAMEORIGIN'
 
-ALLOWED_HOSTS = ['blog-django-app-c068b267c904.herokuapp.com','127.0.0.1', 'localhost']
+ALLOWED_HOSTS = ['blogpostapp-6723aa5eaffb.herokuapp.com','127.0.0.1', 'localhost']
 
 
 # Application definition
