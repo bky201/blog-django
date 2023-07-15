@@ -40,6 +40,7 @@ ALLOWED_HOSTS = ['blogpostapp-6723aa5eaffb.herokuapp.com','127.0.0.1', 'localhos
 # Application definition
 
 INSTALLED_APPS = [
+    'crispy_bootstrap4',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
