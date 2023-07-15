@@ -4,7 +4,6 @@ chardet==4.0.0
 cloudinary==1.33.0
 colorama==0.4.4
 coverage==7.2.7
-crispy-bootstrap4==2022.1
 cryptography==3.4.8
 distro==1.7.0
 dj-database-url==0.5.0

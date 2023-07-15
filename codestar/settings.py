@@ -50,7 +50,6 @@ INSTALLED_APPS = [
     'whitenoise.runserver_nostatic',
     'django.contrib.staticfiles',
     'cloudinary',
-    'crispy_bootstrap4',
     'crispy_forms',
     'allauth',
     'allauth.account',
