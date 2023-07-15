@@ -4,6 +4,7 @@ chardet
 cloudinary
 colorama
 coverage
+crispy-bootstrap4
 cryptography
 defer
 distro
